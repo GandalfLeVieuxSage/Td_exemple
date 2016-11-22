@@ -3,7 +3,6 @@ PROGRAM alphabet
 
 uses crt;
 
-VAR
 
 i:INTEGER;
 minuscule,majuscules : strino;
