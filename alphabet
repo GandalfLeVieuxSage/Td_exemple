@@ -1,0 +1,54 @@
+PROGRAM alphabet
+
+uses crt;
+
+VAR
+
+i:INTEGER;
+minuscule,majuscules : strino;
+
+BEGIN
+  clrscr;
+
+FOR i=(ord('a')) to (ord('z')) do 
+BEGIN
+   majuscule := majusciles+(chr('i'));
+   minuscule := minuscules+chr(i(ord('a'))-(ord('a')));
+END;
+
+writeln (minuscules);
+writeln (majuscules);
+
+readln()
+
+i:=ord('a');
+minuscules :='';
+majuscules :='';
+
+WHILE i < ord('z') DO 
+BEGIN
+  majuscules := majuscules+(chr(i));
+  minuscules := minuscules+chr(i(ord('a')-(ord('a')));
+END
+
+writeln(minuscules);
+writeln(majuscules);
+
+readln();
+
+//version avec WHILE
+
+//On réinitialise les variables
+
+i:=ord('a');
+minuscules :='';
+majuscules :='';
+
+REPEAT
+
+minuscules := + (chr(i));
+minuscules := + chr(i+(ord('a')-(ord('a'))));
+i:=i+1
+
+
+
